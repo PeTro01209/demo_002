@@ -11,11 +11,11 @@
 body {
 	margin: 0;
 	--color-text: #111;
-	--color-bg: #edeee9;
+	--color-bg: #d8d3c8;
 	--color-link: #000;
 	--color-link-hover: #000;
 	--color-menu: #000;
-	--color-menu-hover: #f32015;
+	--color-menu-hover: #1A4F93;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	--cursor-stroke: #000;
@@ -88,7 +88,8 @@ a:focus {
 .frame__title {
 	font-size: 1rem;
 	margin: 0;
-	font-weight: 400;
+	font-weight: 500;
+	color: #281e5d;
 }
 
 .frame__links {
@@ -172,11 +173,11 @@ a:focus {
 
 .menu__item-textinner {
 	display: block;
-	font-family: goldenbook, serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	white-space: nowrap;
-	color: var(--color-menu);
+    font-family: fantasy;
+    font-weight: 300;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: black;
 }
 
 .js .menu__item-textinner {

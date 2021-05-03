@@ -171,12 +171,12 @@ a:focus {
 }
 
 .menu__item-textinner {
-	display: block;
-	font-family: goldenbook, serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	white-space: nowrap;
-	color: var(--color-menu);
+    display: block;
+    font-family: fantasy;
+    font-weight: 300;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: black;
 }
 
 .js .menu__item-textinner {
